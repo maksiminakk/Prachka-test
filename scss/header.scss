@@ -1,0 +1,173 @@
+
+// меню с бургером и выпадающим списком:
+
+// .menu {
+//     &__icon {
+//         display: none;
+
+//         @media(max-width:767.98px) {
+//             display: block;
+//             z-index: 50;
+//             cursor: pointer;
+//             width: 30px;
+//             height: 18px;
+//             position: relative;
+//             span,
+//             &:after,
+//             &:before {
+//                 height: 10%;
+//                 width: 100%;
+//                 left: 0;
+//                 transition: 0.3s;
+//                 position: absolute;
+//                 background-color: #fff;
+//             }
+
+//             &:after,
+//             &:before {
+//                 content: "";
+//             }
+
+//             &:before {
+//                 top: 0;
+//             }
+
+//             &:after {
+//                 bottom: 0;
+//             }
+
+//             span {
+//                 top: 50%;
+//                 transform: scale(1) translate(0px, -50%);
+//             }
+//         }
+//     }
+    
+//     &__icon-active {
+//         @media(max-width:767px) {
+//             span {
+//                 transform: scale(0) translate(0px, -50%);
+//             }
+//             &:before {
+//                 top: 50%;
+//                 transform: rotate(-45deg) translate(0px, -50%);
+//             }
+//             &:after {
+//                 bottom: 50%;
+//                 transform: rotate(45deg) translate(0px, 50%);
+//             }
+//         }
+//     }
+
+//     &__body {
+//         @media(max-width:767.98px) {
+//             position: fixed;
+//             width: 100%;
+//             height: 100%;
+//             top: 0;
+//             left: -100%;
+//             background-color: rgba(0, 0, 0, 0.9);
+//             padding: 100px 30px 30px 30px;
+//             transition: left 0.3s;
+//             overflow: auto;
+//             &:before {
+//                 content: "";
+//                 position: fixed;
+//                 top: 0;
+//                 left: 0;
+//                 width: 100%;
+//                 height: 80px;
+//                 background-color: rgb(80, 80, 80);
+//                 z-index: 50;
+//             }
+//         }
+//     }
+
+//     &__list {
+//         >li {
+//             position: relative;
+//             margin-left: 20px;
+//             @media(max-width:767.98px) {
+//                 margin-bottom: 30px;
+//                 &:last-child {
+//                     margin-bottom: 0;
+//                 }
+//                 flex-wrap: wrap;
+//             }
+//         }
+//         @media(min-width:767px) {
+//             display: flex;
+//             align-items: center;
+
+//             >li {
+//                 padding: 0px 10px;
+//             }
+//         }
+//     }
+
+//     &__link {
+//         color: #fff;
+//         font-size: 18px;
+//         transition: 0.3s;
+//         @media(max-width:767.98px) {
+//             font-size: 24px;
+//         }
+
+//         &:hover {
+//             color: rgb(255, 72, 72);
+//             text-decoration: underline;
+//         }
+//     }
+
+//     &__body-active {
+//         left: 0;
+//     }
+
+//     // &__arrow {
+//     //     display: none;
+//     // }
+
+//     // &__sublist {
+//     //     background-color: #fff;
+//     //     min-width: 150px;
+//     //     position: absolute;
+//     //     top: 100%;
+//     //     right: 0;
+//     //     padding: 15px;
+
+//     //     li {
+//     //         margin-bottom: 10px;
+
+//     //         &:last-child {
+//     //             margin: 0;
+//     //         }
+//     //     }
+//     //     @media(min-width:767px) {
+//     //         opacity: 0;
+//     //         visibility: hidden;
+//     //         transform: translate(0px, 10%);
+//     //         transition: 0.3s;
+//     //         pointer-events: none;
+//     //     }
+//     //     @media(max-width:767px) {
+//     //         position: relative;
+//     //         flex: 1 1 100%;
+//     //         margin-top: 20px;
+//     //         display: none;
+//     //         transition: 0.3s;
+//     //     }
+//     // }
+
+//     // &__sublink {
+//     //     color: #000;
+//     //     font-size: 16px;
+
+//     //     &:hover {
+//     //         color: rgb(255, 72, 72);
+//     //         text-decoration: underline;
+//     //     }
+//     // }
+//     // &__body-active {
+//     //     left: 0;
+//     // }
+// }
